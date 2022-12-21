@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+	border-collapse: collapse;
+	user-select: none;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	transition-duration: 100ms;
+}
+
+body, html {
+	background: #202A25;
+	color: #EAB464;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#duckhitbox {
+	width: 250px;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+#duck {
+	width: 100px;
+	height: 100px;
+}
