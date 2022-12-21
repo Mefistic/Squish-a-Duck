@@ -8,7 +8,7 @@ document.getElementById(`duckhitbox`).onmousedown = () => {
 }
 document.getElementById(`duckhitbox`).onmouseup = () => {
 	console.log(`release`)
-	duck_release_sound.play()
+	if (document.getElementById(`duck`).style.transform == `scale(1, 0.75)`)duck_release_sound.play()
 	document.getElementById(`duck`).style.transform = `scale(1)`
 }
 document.getElementById(`duckhitbox`).onmouseleave = document.getElementById(`duckhitbox`).onmouseup
