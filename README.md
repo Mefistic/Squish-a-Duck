@@ -1,1 +1,1 @@
-# Squish-a-Duck
+# Squish a Duck!
